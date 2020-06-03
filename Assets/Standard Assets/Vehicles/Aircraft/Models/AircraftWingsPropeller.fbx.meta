@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8fb5ebe73f3784e4fab98b15f1299e76
+guid: c80f1ff31baa2134589293696be2ea11
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -337,12 +337,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: AircraftWingsPropellerBlurWhite
-    second: {fileID: 2100000, guid: f5a209142cf260f4a96ca747e0e4dadf, type: 2}
+    second: {fileID: 2100000, guid: 5560ce248b994eb42898f5c3003ca4c3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: AircraftWingsPropellersWhite
-    second: {fileID: 2100000, guid: ef1216aa37a0cc249a6a6f5abbd25665, type: 2}
+    second: {fileID: 2100000, guid: 02d767c2984a8074ba8bc55cec485d74, type: 2}
   materials:
     importMaterials: 1
     materialName: 1
