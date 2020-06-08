@@ -31,6 +31,23 @@ Transform:
   m_Father: {fileID: 4964354160505509389}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2406476661316918014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4963789976936486323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e12e2cf925dd42d4bbc8785d80e7d39a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fPCamera: {fileID: 4964354160505997325}
+  range: 100
+  weaponDamage: 30
+  muzzleFlash: {fileID: 6522832417969046230}
+  hitVFX: {fileID: 5313159622437593177, guid: a03211555600b9046bfc231801bba045, type: 3}
 --- !u!1 &4964354160505801257
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,6 +228,7 @@ GameObject:
   - component: {fileID: 4964354160517466509}
   - component: {fileID: 4964354160511303625}
   - component: {fileID: 4700109489618001442}
+  - component: {fileID: 8134912769221347481}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -225,14 +243,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4964354160505801259}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0.00000028088027}
   m_LocalPosition: {x: -1.6330069, y: 1.666, z: -4.233938}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4964354160505509389}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 179.99998, z: 0}
 --- !u!54 &4964354160511002957
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -345,23 +363,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: 100
---- !u!114 &2406476661316918014
+--- !u!114 &8134912769221347481
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4963789976936486323}
+  m_GameObject: {fileID: 4964354160505801259}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e12e2cf925dd42d4bbc8785d80e7d39a, type: 3}
+  m_Script: {fileID: 11500000, guid: d03edf117e2ae2741804ef93f80ef996, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fPCamera: {fileID: 4964354160505997325}
-  range: 100
-  weaponDamage: 30
-  muzzleFlash: {fileID: 6522832417969046230}
-  hitVFX: {fileID: 5313159622437593177, guid: a03211555600b9046bfc231801bba045, type: 3}
+  gameOverCanvas: {fileID: 0}
 --- !u!1001 &4964354160926367246
 PrefabInstance:
   m_ObjectHideFlags: 0

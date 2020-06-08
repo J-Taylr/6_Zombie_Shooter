@@ -11,9 +11,9 @@ public class PlayerHealth : MonoBehaviour
     {
         playerHealth -= enemyDamage;
         print(playerHealth);
-        if (playerHealth <= 0)
+        if (playerHealth <= Mathf.Epsilon)
         {
-            print("YOU ARE DEAD");
+            GetComponent<DeathHandler>().HandleDeath();       
         }
     }
   
