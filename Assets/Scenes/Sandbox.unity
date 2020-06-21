@@ -6259,17 +6259,17 @@ PrefabInstance:
     - target: {fileID: 4964354160505509391, guid: 363eb9e29427a164d8ddb7252ed6f33f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 83.918
+      value: 89.228
       objectReference: {fileID: 0}
     - target: {fileID: 4964354160505509391, guid: 363eb9e29427a164d8ddb7252ed6f33f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.52
+      value: -10.65
       objectReference: {fileID: 0}
     - target: {fileID: 4964354160505509391, guid: 363eb9e29427a164d8ddb7252ed6f33f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 51.766
+      value: 64.959
       objectReference: {fileID: 0}
     - target: {fileID: 4964354160505509391, guid: 363eb9e29427a164d8ddb7252ed6f33f,
         type: 3}
@@ -6316,5 +6316,10 @@ PrefabInstance:
       propertyPath: gameOverCanvas
       value: 
       objectReference: {fileID: 1478071878}
+    - target: {fileID: 7931692759447920862, guid: 363eb9e29427a164d8ddb7252ed6f33f,
+        type: 3}
+      propertyPath: fovIn
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 363eb9e29427a164d8ddb7252ed6f33f, type: 3}
