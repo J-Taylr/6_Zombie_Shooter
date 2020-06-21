@@ -34,6 +34,11 @@ public class EnemyAI : MonoBehaviour
  
     }
 
+    public void OnDamageTaken()
+    {
+        isProvoked = true;
+    }
+
     private void EngageTarget()
     {
         FaceTarget();
@@ -52,6 +57,7 @@ public class EnemyAI : MonoBehaviour
         GetComponent<Animator>().SetBool("Attack", false);
         GetComponent<Animator>().SetTrigger("Move");
         navMeshAgent.SetDestination(target.position);
+        print("chasing target");
         
     }
 
